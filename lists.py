@@ -7,11 +7,19 @@
 
 # TODO: COMPLETE THIS DEFINITION
 def average(l):
-    pass
-
+    sum = 0
+    for n in l:
+        sum += n
+    sum /= len(l)
+    return sum
 # TODO: COMPLETE THIS DEFINITION
 def largest(l):
-    pass
+    large = l[0]
+    for n in l:
+        if n > large:
+            large = n
+    return large
+
 
 
 # Inputs the list from the user as a string
